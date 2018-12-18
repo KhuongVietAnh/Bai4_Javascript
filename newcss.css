@@ -20,14 +20,14 @@ body{
     position: absolute;
 } 
 .pre__nav, .next__nav{
-    top: 25%;
+    top: 35%;
     cursor: pointer;
 }
 .pre__nav{
-    left: 25%;
+    left: 30%;
 }
 .next__nav{
-    right: 25%
+    right: 30%
 }
 .list__navi 
 {
@@ -52,6 +52,6 @@ body{
 .menu{
     display: none;
 }
-.list_info__item__js >li{
+.list_info__item__js li{
     cursor: pointer;
 }
