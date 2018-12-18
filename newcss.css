@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 100px auto;
+    max-width: 320px;
+}
+.list_info__item{
+    list-style-type: none;
+    padding: 0px;
+    position: relative;
+    width: 2000px;
+}
+.list_info__item >li{
+    display: inline-block;
+    margin-right: -5px;
+}
+.container >img{
+    position: absolute;
+} 
+.pre__nav, .next__nav{
+    top: 25%;
+    cursor: pointer;
+}
+.pre__nav{
+    left: 25%;
+}
+.next__nav{
+    right: 25%
+}
+.list__navi 
+{
+    width: 320px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+}
+.list__navi >ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.container__list{
+    overflow: hidden;
+}
+.list__navi ul >li{
+    line-height: 1px;
+    cursor: pointer;
+}
+.menu{
+    display: none;
+}
+.list_info__item__js >li{
+    cursor: pointer;
+}
